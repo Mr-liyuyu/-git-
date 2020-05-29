@@ -5,4 +5,7 @@
 	4.git log查看提交日志如果信息太多可以添加--pretty=oneline参数
 	5.当前版本用HEAD表示，上个版本就是HEAD^,上上个版本就是HEAD^^;
 	6.想要往后面需要输入git reset --hard+跳到的版本提交号！
-	7.找不到版本号怎么办使用git reflog显示每一天提交记录
+	7.找不到版本号怎么办使用git reflog显示所有历史提交记录
+	8.git status查看当前git工作区状态，如果所有更改都提交倒暂存区了，那工作区就是clear的
+	9.git diff HEAD -- +文件名 查看工作库和版本库里面次文件的区别
+	
