@@ -11,4 +11,6 @@
 	10.git checkout -- +文件名 丢弃当前工作区的更改
 	11.git reset HEAD +文件名 丢弃该文件的更改恢复到上次提交的状态
 	12.rm +文件名 可以删除本地文件，git rm +文件名可以从本地仓库删除此文件,误删除可以用git checkout -- +文件名恢复
-	13.
+	13.git checkout -b +分支名 创建分支并且转到该分支
+	14.git branch 查看所有分支
+	15.
