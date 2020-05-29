@@ -2,4 +2,5 @@
 	1.gitinit 初始化git仓库
 	2.gitadd 往远程仓库添加文件
 	3.git commit -m "注释" 提交当前更改记录到git仓库并且注释
-	4.
+	4.git log查看提交日志如果信息太多可以添加--pretty=oneline参数
+	5.当前版本用HEAD表示，上个版本就是HEAD^,上上个版本就是HEAD^^;
